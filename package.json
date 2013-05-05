@@ -1,10 +1,10 @@
 {
-  "name": "less-monitor",
-  "version": "0.2.0",
-  "description": "Monitor and recompile your LESS files with automatic backwards @import parsing.",
+  "name": "slingjcr-sync",
+  "version": "0.0.1",
+  "description": "Monitor and upload changed files to Apache Sling/ Adobe CQ, derived from less monitor by Guilherme Dupont",
   "author": {
-    "name": "Guilherme Dupont",
-    "email": "guilhermedupont@gmail.com"
+    "name": "Michael Szlapa (based on less monitor by Guilherme Dupont)",
+    "email": "michael@itsolv.ca"
   },
   "main": "./monitor.js",
   "tags": [
@@ -18,15 +18,15 @@
     "development"
   ],
   "bin": {
-    "less-monitor": "./bin/less-monitor"
+    "less-monitor": "./bin/slingjcr-sync"
   },
-  "homepage": "https://github.com/gdupont/less-monitor",
+  "homepage": "https://github.com/mszlapa/slingjcr-sync",
   "bugs": {
-    "url": "https://github.com/gdupont/less-monitor/issues"
+    "url": "https://github.com/mszlapa/slingjcr-sync/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gdupont/less-monitor.git"
+    "url": "https://github.com/mszlapa/slingjcr-sync.git"
   },
   "engines": {
     "node": ">=0.8.1"
@@ -34,11 +34,11 @@
   "preferGlobal": "true",
   "dependencies": {
     "mootools": ">=1.4.5",
-    "less": "*",
     "optimist": "0.3.4",
     "moment": "1.7.2",
     "colors": "0.6.0-1",
     "minimatch": "0.2.7",
-    "stalker": "0.0.20"
+    "stalker": "0.0.20",
+    "request": "2.21.0"
   }
 }

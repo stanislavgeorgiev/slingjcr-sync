@@ -1,22 +1,14 @@
-# less-monitor
+# Sling JCR Sync
 
-Monitor and recompile your .less files and dependencies.
+Forked and derived from less-monitor
 
+## following content needs to be updated
 
 ## Features
 
-- Watch and parse found files and @import dependencies.
-- Automatic backwards @import parsing.
-- You can write your own Plugin.
-- Work in progress! More features to come.
-
-```
-[Sep-15 03:05:52] Found global.less [+5 dependencies]
-[Sep-15 03:05:52] Found layout.less [+14 dependencies]
-```
+- Watch and upload changed files to sling / cq5 repository
 
 - Fully customizable. (see options)
-- Work in progress! More features to come.
 
 ## Instalation
 
@@ -25,23 +17,22 @@ Monitor and recompile your .less files and dependencies.
 - Node.js Platform and npm package manager:
   - [Visit node.js website](http://nodejs.org/).
 
-### Installing less-monitor
-```
-npm install less-monitor -g
-```
+### Installing
+
+git clone git://github.com/mikeal/request.git
+cd request
+npm link
 
 ## Usage
 
-Go to your .less folder and type:
+Go to your  folder and type:
 ```
-less-monitor [options]
+slingjcr-sync [options]
 
-## Plugins
-- [less-livereload](https://github.com/gdupont/less-livereload)
 
 ```
 
-## Options
+## Options ( NOTE those will change)
 
 ```
   --directory, -d     Define the root directory to watch, if this is not
@@ -86,27 +77,3 @@ less-monitor [options]
   --help, -h          Show this message
 ```
 
-## License 
-
-(The MIT License)
-
-Copyright (c) 2012 Guilherme Dupont &lt;guilhermedupont@gmail.com&gt;
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

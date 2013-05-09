@@ -18,7 +18,7 @@
     "development"
   ],
   "bin": {
-    "less-monitor": "./bin/slingjcr-sync"
+    "slingjcr-sync": "./bin/slingjcr-sync"
   },
   "homepage": "https://github.com/mszlapa/slingjcr-sync",
   "bugs": {
@@ -39,6 +39,7 @@
     "colors": "0.6.0-1",
     "minimatch": "0.2.7",
     "stalker": "0.0.20",
-    "request": "2.21.0"
+    "request": "2.21.0",
+    "exec": "0.0.6"
   }
 }

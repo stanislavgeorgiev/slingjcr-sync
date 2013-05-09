@@ -19,8 +19,10 @@ Forked and derived from less-monitor
 
 ### Installing
 
-git clone git://github.com/mikeal/request.git
-cd request
+git clone https://github.com/mszlapa/slingjcr-sync.git
+
+cd slingjcr-sync
+
 npm link
 
 ## Usage
@@ -29,6 +31,7 @@ Go to your  folder and type:
 ```
 slingjcr-sync [options]
 
+It requires curl in directory: \\cygwin\\bin\\curl
 
 ```
 

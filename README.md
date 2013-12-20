@@ -41,9 +41,16 @@ It requires curl in directory: \\cygwin\\bin\\curl
   --directory, -d     Define the root directory to watch, if this is not
                       defined the program will use the current working
                       directory.
+					  
+  --output, -o        Define the directory to output the files, if this is not defined the program will use the same directory from file.
+                      Defaults to http://localhost:4502/
+					  
+  --user, -u        Define a user to connect with. Defaults to admin 
+			  
+  --pass, -p        Define a password to connect with. Defaults to admin.
 
   --match, -m         Matching files that will be processed. Defaults to
-                      **/*.js|css|jsp|png|jpg|jpeg|gif
+                      **/*.js|jsp|css|png|jpg|jpeg|gif
 
   --force, -f         Force to recompile all files on startup before start
                       watching files.
@@ -56,7 +63,7 @@ It requires curl in directory: \\cygwin\\bin\\curl
 
   --silent, -s        Sets to silent mode. Starts without log output.
 
-  --options, -u       Show options on startup.
+  --options, -opt       Show options on startup.
 
   --help, -h          Show this message
 ```
